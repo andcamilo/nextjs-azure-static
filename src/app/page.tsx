@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import AuthButton from "@/components/AuthButton";
 
 export default function Home() {
   const [message, setMessage] = useState("Hola mundo");
